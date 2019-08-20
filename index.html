@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Customizing Sphinx: Simple, Normal, and Hard</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="node_modules/reveal.js/css/reveal.css">
+    <link rel="stylesheet"
+          href="node_modules/reveal.js/css/theme/white.css">
+    <link rel="stylesheet" href="node_modules/reveal.js/lib/css/zenburn.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<div class="reveal">
+    <div class="reveal">
+        <div class="slides">
+            <section data-markdown="slides.md"
+                     data-separator="^\n----  ----\n$"
+                     data-separator-vertical="^\n----\n$">
+            </section>
+        </div>
+    </div>
+</div>
+
+<script src="node_modules/reveal.js/lib/js/head.min.js"></script>
+<script src="node_modules/reveal.js/js/reveal.js"></script>
+<script>
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'slide',
+        dependencies: [
+            {
+                src: 'node_modules/reveal.js/lib/js/classList.js',
+                condition: function () {
+                    return !document.body.classList;
+                }
+            },
+            {src: 'node_modules/reveal.js/plugin/markdown/marked.js'},
+            {src: 'node_modules/reveal.js/plugin/markdown/markdown.js'},
+            {src: 'vendor/highlight.js/highlight.pack.js'},
+            {
+                src: 'node_modules/reveal-code-focus/reveal-code-focus.js',
+                callback: function () {
+                    RevealCodeFocus();
+                }
+            },
+            { src: 'node_modules/reveal.js-menu/menu.js' }
+        ]
+    });
+    Reveal.configure({ slideNumber: 'c/t' });
+</script>
+
+</body>
+</html>
