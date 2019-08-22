@@ -1,6 +1,6 @@
 ## About Me
 
-- One credential: Andreesen screenshot
+![](images/andreesen.png)
 
 
 ----  ----
