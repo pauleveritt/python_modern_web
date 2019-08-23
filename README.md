@@ -1,8 +1,6 @@
-# Sample repo for Customizing Sphinx talk
+# Slides for Python and the Modern Web
 
-This is the minimal-code, Reveal.js slideshow repo 
-used for the *Customizing Sphinx: Simple, Normal, Hard* 
-presentation.
+This is the Reveal.js slideshow repo used for the *Python and the Modern Web*  presentation.
 
 Slides
 ======
@@ -14,3 +12,5 @@ To view the slides:
 2. npm init
 
 3. npm run serve
+
+...then open `http://localhost:3000`

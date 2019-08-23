@@ -2,6 +2,9 @@
 
 ##### Paul Everitt, @paulweveritt
 
+----  ----
+
+## Apologies, Assembled Late
 
 ----  ----
 
@@ -18,18 +21,12 @@ Developer Advocate for PyCharm.
 
 ----  ----
 
-## Apologies, Assembled Late
-
-----  ----
-
-## This Talk: Is, Isn't
-
-----  ----
-
 ## Hypothesis
 
-Python has a blind spot regarding the modern web. As Russell Keith-Magee and 
-Lukasz Langa recently highlighted, this could be a mortal threat. Let's explore.
+Python has a blind spot regarding the "modern web". As Russell Keith-Magee and 
+Lukasz Langa recently highlighted, this could be a mortal threat. 
+
+Let's explore.
 
 ----  ----
 
@@ -49,7 +46,7 @@ Lukasz Langa recently highlighted, this could be a mortal threat. Let's explore.
 
 ----  ----
 
-### What Surprise Could Happen Which Dramatically Alters Popularity
+### What Surprise Could Happen Which Dramatically Alters Popularity?
 
 ----  ----
 
